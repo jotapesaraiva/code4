@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-07 21:35:03 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/joao.saraiva/Documentos/Sites/ci4/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /home/joao.saraiva/Documentos/Sites/ci4/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /home/joao.saraiva/Documentos/Sites/ci4/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /home/joao.saraiva/Documentos/Sites/ci4/app/Controllers/Login.php(18): CodeIgniter\Model->__construct()
+#4 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(832): App\Controllers\Login->logar()
+#5 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/joao.saraiva/Documentos/Sites/ci4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/joao.saraiva/Documentos/Sites/ci4/system/Commands/Server/rewrite.php(43): require_once('/home/joao.sara...')
+#9 {main}

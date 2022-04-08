@@ -1,0 +1,40 @@
+CRITICAL - 2022-04-03 02:09:12 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/joao.saraiva/Documentos/Sites/ci4/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/joao.saraiva/Documentos/Sites/ci4/spark(45): require('/home/joao.sara...')
+#4 {main}
+CRITICAL - 2022-04-03 18:40:46 --> syntax error, unexpected token "}", expecting ";"
+#0 /home/joao.saraiva/Documentos/Sites/ci4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/joao.saraiva/Documentos/Sites/ci4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/joao.saraiva/Documentos/Sites/ci4/system/Commands/Server/rewrite.php(43): require_once('/home/joao.sara...')
+#6 {main}
+CRITICAL - 2022-04-03 18:41:39 --> syntax error, unexpected token "/"
+#0 /home/joao.saraiva/Documentos/Sites/ci4/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/joao.saraiva/Documentos/Sites/ci4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/joao.saraiva/Documentos/Sites/ci4/system/Commands/Server/rewrite.php(43): require_once('/home/joao.sara...')
+#6 {main}
+CRITICAL - 2022-04-03 18:42:06 --> Invalid file: login.php
+#0 /home/joao.saraiva/Documentos/Sites/ci4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/joao.saraiva/Documentos/Sites/ci4/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/joao.saraiva/Documentos/Sites/ci4/app/Controllers/Login.php(9): view()
+#3 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/joao.saraiva/Documentos/Sites/ci4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/joao.saraiva/Documentos/Sites/ci4/system/Commands/Server/rewrite.php(43): require_once('/home/joao.sara...')
+#8 {main}
+CRITICAL - 2022-04-03 19:31:26 --> Undefined variable $dadosUsuario
+#0 /home/joao.saraiva/Documentos/Sites/ci4/app/Controllers/Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(832): App\Controllers\Login->logar()
+#2 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/joao.saraiva/Documentos/Sites/ci4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/joao.saraiva/Documentos/Sites/ci4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/joao.saraiva/Documentos/Sites/ci4/system/Commands/Server/rewrite.php(43): require_once('/home/joao.sara...')
+#6 {main}
